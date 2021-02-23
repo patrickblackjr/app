@@ -9,5 +9,23 @@ jobs:
       with:
         action-token: "${{ secrets.MOVE_ISSUE_LABEL }}"
         project-url: "https://github.com/patrickblackjr/app/projects/2"
-        column-name: "On Deck"
+        column-name: "Priority 1"
         label-name: "p1"
+    - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
+      with:
+        action-token: "${{ secrets.MOVE_ISSUE_LABEL }}"
+        project-url: "https://github.com/patrickblackjr/app/projects/2"
+        column-name: "Priority 2"
+        label-name: "p2"
+    - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
+      with:
+        action-token: "${{ secrets.MOVE_ISSUE_LABEL }}"
+        project-url: "https://github.com/patrickblackjr/app/projects/2"
+        column-name: "Priority 3"
+        label-name: "p3"
+    - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
+      with:
+        action-token: "${{ secrets.MOVE_ISSUE_LABEL }}"
+        project-url: "https://github.com/patrickblackjr/app/projects/2"
+        column-name: "Priority 4"
+        label-name: "p4"
